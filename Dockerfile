@@ -12,4 +12,4 @@ COPY pp2host.conf /etc/pp2host/.
 COPY autohost.ini /etc/pp2host/static/.
 COPY autoscript.txt /etc/pp2host/static/.
 COPY run_game.sh run_game.sh
-ENTRYPOINT bash /pilkki/run_game.sh
+ENTRYPOINT ["bash", "/pilkki/run_game.sh"]
